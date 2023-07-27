@@ -1,0 +1,72 @@
+{
+    "editor.fontFamily": "'SourceCodePro-Light'",
+    "editor.autoClosingBrackets": "always",
+    "editor.lineHeight": 50,
+    "editor.letterSpacing": 2,
+    "editor.autoIndent": "advanced",
+    "editor.fontSize": 30,
+    "editor.formatOnSave": true,
+    "[cpp]": {
+        "editor.wordBasedSuggestions": true,
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true
+    },
+    "C_Cpp.autocomplete": "default",
+    "editor.bracketPairColorization.enabled": true,
+
+    "editor.guides.bracketPairs": "active",
+ 
+    "files.associations": {
+        "iostream": "cpp",
+        "unordered_map": "cpp"
+    },
+    "better-comments.tags": [
+
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ]
+
+}
