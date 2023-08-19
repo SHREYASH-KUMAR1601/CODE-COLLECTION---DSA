@@ -79,7 +79,7 @@ void breakcycle(node *head)
     node *fast = head;
     node *slow = head;
     bool cyclepresentornot = false;
-    while (fast != NULL || fast->next != NULL)
+    while (fast != NULL and fast->next != NULL)
     {
         slow = slow->next;
         fast = fast->next->next;
